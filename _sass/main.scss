@@ -88,12 +88,19 @@ img{
 }
 
 div.divImage{
+    max-height: 300px;
+    min-width: 300px;
     width: 90%;
     height: 90%;
     border-radius:20px;
     margin:10px 10px 10px 10px;
 }
-
+img.postImage{
+    border: 2px solid salmon;
+    width: 300px;
+    height: 300px;
+    border-radius:20px;
+}
 
 img.textImage{
     border: 2px solid salmon;
@@ -126,3 +133,10 @@ article.postContent{
     text-align: justify;
 
 }
+
+@media only screen and (max-width: 1100px) {
+    article.postArticle {
+      display:flex;
+      flex-direction: row ;
+    }
+  }
