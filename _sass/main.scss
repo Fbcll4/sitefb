@@ -139,4 +139,10 @@ article.postContent{
       display:flex;
       flex-direction: row ;
     }
+    article.mainArticle{
+        grid-template-areas: "nav text "
+                            "nav text "
+                            "footer footer";
+        
+    }
   }
